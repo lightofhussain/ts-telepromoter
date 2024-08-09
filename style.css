@@ -1,0 +1,99 @@
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	height: 100vh;
+	line-height: 1.2;
+	/* margin: 1em auto; */
+	overflow: hidden;
+	max-width: 40em;
+	width: 88%;
+    background:linear-gradient(-45deg, blue,green);
+}
+
+.container{
+    display: block;
+    width: 100vw;
+    height:70vh;
+    background:linear-gradient(45deg, blue,green);
+    border: 2px solid black;
+    text-align: center;
+    color: white;
+}
+
+marquee {
+    border: 2px solid orange;
+   margin-top: 110px;
+	/* max-height: 92vh; */
+    height: 90px;
+	font-size:40px;
+    width: 100%;
+    line-height: 55px;
+    color: white;
+    text-align: center;
+
+}
+.btn-start-stop{
+    width: 250px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    transition: all .3s ease;
+    border: none;
+    background:linear-gradient(145deg, blue,green);
+}
+.btn-start-stop:hover{
+    cursor: pointer;
+    font-size: 20px;
+    color: brown;
+    background:linear-gradient(-145deg, blue,green);
+}
+.btn{
+    width: 250px;
+    height: 20px;
+    margin-top: 50px;
+    margin-left: 10px;
+    border-radius: 5px;
+    transition: all .3s ease;
+    border: none;
+    background:linear-gradient(145deg, blue,green);
+}
+.btns input{
+    width: 250px;
+    height: 40px;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 10px;
+    border-radius: 25px;
+    transition: all .3s ease;
+    border: none;
+    background:linear-gradient(145deg, blue,green);
+}
+.btns input:hover{
+    cursor: pointer;
+    font-size: 20px;
+    color: brown;
+    background:linear-gradient(-145deg, blue,green);
+
+}
+
+
+
+
+
+
+.file-content {
+    margin-top: 50px;
+    width: 100%;
+    height: 20px;
+    overflow: hidden;
+    background:blue;
+    color: white;
+    font-size: 8px;
+}
+.file-content input{
+    width: 100%;
+}
+.file-content input::placeholder{
+    color: white;
+}
