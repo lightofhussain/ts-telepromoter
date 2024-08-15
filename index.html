@@ -10,18 +10,19 @@
 <body>
     <div class="container">
     <h1>TSyed-teleprompter</h1>
+    <div class="btns">
+        <input type="file" accept="*/*" id="btn-upload" > 
+        <button class="btn-start-stop" id="btn-start-stop" onclick="fnPromoterStart()" >Stop</button>
+        <!-- <button class="btn-start-stop" id="btn-upload" >Upload File</button> -->
+        <!-- <button class="btn-start-stop" id="btn-start-stop1" onclick="fnOpenFile()" >OpenFile</button> -->
+    </div>
         <div class="my-marquee" id="my-marquee">
-            <marquee direction="up" scrollamount="2" loop="-1">
+            <marquee direction="up" scrollamount="1" loop="-1">
             <p id="marquee-text"></p>
             </marquee>
         </div>
     
-        <div class="btns">
-            <input type="file" accept="*/*" id="btn-upload" > 
-            <button class="btn-start-stop" id="btn-start-stop" onclick="fnPromoterStart()" >Stop</button>
-            <!-- <button class="btn-start-stop" id="btn-upload" >Upload File</button> -->
-            <!-- <button class="btn-start-stop" id="btn-start-stop1" onclick="fnOpenFile()" >OpenFile</button> -->
-        </div>
+       
         <div class="btn-space">
             <button class="btn" >Also use  space-bar  for start/stop</button>
         </div>
